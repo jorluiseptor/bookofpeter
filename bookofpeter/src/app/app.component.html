@@ -1,0 +1,8 @@
+<h1>The Book of Peter</h1>
+
+<p class="verse">
+  {{verse.text}} <span class="chapter" *ngIf="verse.chapterNum" >- BoP {{verse.chapterNum}}:{{verse.verseNum}}</span>
+</p>
+
+
+<button (click)="getVerse()"><i class="fas fa-arrow-circle-right"></i> Show me another verse</button>

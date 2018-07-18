@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+.verse {
+    font-size: 2em;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+body {
+    // padding: 10em;
+    position: relative;
+    height: 100vh;
+}
+h1{
+    font-size: 4em;
+    color: whitesmoke;
+    /* margin: 4em; */
+    line-height: 1em;
+    margin: 0;
+}
+
+button{
+    padding: 1em;
+    background: transparent;
+    border: 1px solid whitesmoke;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+}
+
+.chapter{
+    color: whitesmoke;
+    display: block;
+    text-align: right;
+}
